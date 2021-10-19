@@ -16,7 +16,7 @@ const styles = StyleSheet.create({
         paddingVertical:20
     },
     txtInputView:{
-        height:50,
+        height:(height/100)*7,
         width:'80%',
         marginVertical:10,
         flexDirection:'row',
@@ -44,16 +44,16 @@ const styles = StyleSheet.create({
     },
     forgotText:{
         color:'#fff',
-        fontSize:12,
+        fontSize:(height/100)*1.8,
         fontWeight:'600'
     },
     btn:{
-        height:55,
+        height:(height/100)*7,
         width:'80%',
         backgroundColor:'#E75480',
         alignItems:'center',
         justifyContent:'center',
-        marginTop:60,
+        marginTop:(height/100)*10,
         borderRadius:25
     },
     btnText:{
