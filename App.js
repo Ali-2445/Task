@@ -3,7 +3,7 @@ import { StyleSheet, Text, View } from 'react-native'
 import { NavigationContainer } from '@react-navigation/native'
 import { createNativeStackNavigator } from '@react-navigation/native-stack'
 import Login from './screens/Login/Login'
-import TabBar from './components/TabBar'
+import TabBar from './components/TabBar/TabBar'
 
 const App = () => {
   const Stack=createNativeStackNavigator()

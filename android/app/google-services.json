@@ -1,0 +1,39 @@
+{
+  "project_info": {
+    "project_number": "935536911114",
+    "project_id": "taskscreens",
+    "storage_bucket": "taskscreens.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:935536911114:android:379ad1a5549144392950f3",
+        "android_client_info": {
+          "package_name": "com.taskscreens"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "935536911114-i6bl5slcafmoi92jrgk1lcp57hn8phcl.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyBjdFMkir4ape30mn6YWQONvi9rkexhEOA"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": [
+            {
+              "client_id": "935536911114-i6bl5slcafmoi92jrgk1lcp57hn8phcl.apps.googleusercontent.com",
+              "client_type": 3
+            }
+          ]
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}

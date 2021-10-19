@@ -2,6 +2,7 @@ import React,{useEffect,useState} from 'react'
 import { FlatList, ScrollView, StyleSheet, Text, View } from 'react-native'
 import styles from './styles'
 
+
 const Home = () => {
 
     const [data,setData]=useState('')
@@ -15,10 +16,11 @@ const Home = () => {
             }
         }).then(res=>res.json())
         .then(js=>{
+            console.log(js)
             setData(js)
             setProperties(Object.getOwnPropertyNames(js))
-            
         }).catch(err=>{
+            alert('Error while loading data')
             console.log(err)
         })
         console.log(properties)
@@ -41,11 +43,12 @@ const Home = () => {
                             </View>  
                             <View style={styles.con}>
                                 <Text style={styles.txt}>{data[item]['followers']}</Text>
-                            </View>    
+                            </View>       
                         </View>    
                     )
                 })}
             </ScrollView>
+            <View style={styles.bottomView}/>
         </View>
     )
 }
